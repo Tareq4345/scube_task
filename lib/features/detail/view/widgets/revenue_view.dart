@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:scube_task/features/detail/view/widgets/data_cost_info_card.dart';
-import 'package:scube_task/features/detail/view/widgets/energy_gauge_alt.dart';
+import 'package:scube_task/features/detail/view/widgets/energy_gauge.dart';
 
 class RevenueView extends StatelessWidget {
   const RevenueView({

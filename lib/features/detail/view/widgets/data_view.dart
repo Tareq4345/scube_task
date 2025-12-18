@@ -4,8 +4,8 @@ import 'package:scube_task/core/theme/app_colors.dart';
 import 'package:scube_task/core/theme/app_text_styles.dart';
 import 'package:scube_task/features/detail/model/data_detail_state.dart';
 import 'package:scube_task/features/detail/view/widgets/date_range_search_bar.dart';
-import 'package:scube_task/features/detail/view/widgets/energy_cart_card.dart';
-import 'package:scube_task/features/detail/view/widgets/energy_gauge_alt.dart';
+import 'package:scube_task/features/detail/view/widgets/energy_chart_card.dart';
+import 'package:scube_task/features/detail/view/widgets/energy_gauge.dart';
 import 'package:scube_task/features/detail/viewmodel/data_detail_viewmodel.dart';
 import 'package:scube_task/features/detail/model/energy_data_item.dart';
 
