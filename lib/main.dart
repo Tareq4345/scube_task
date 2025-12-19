@@ -4,8 +4,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:scube_task/features/auth/view/login_screen.dart';
 
 
-
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ScreenUtil.ensureScreenSize();
   runApp(ProviderScope(child: const MyApp()));
 }
 
@@ -33,4 +34,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
